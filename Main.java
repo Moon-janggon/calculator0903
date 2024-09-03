@@ -16,13 +16,13 @@ public class Main {
                 System.out.println(c);
                 break;
 
+
             case '-':
                 c = minus(a,b);
-                System.out.println(c);
-                break;
 
             case '*':
                 c = mul(a, b);
+
                 System.out.println(c);
                 break;
 
@@ -51,5 +51,4 @@ public class Main {
     {
         return (int)Math.pow(a,b);
     }
-
 }
