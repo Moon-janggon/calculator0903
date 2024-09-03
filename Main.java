@@ -1,5 +1,25 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("test1");
+        int a,b,c;
+        char operator;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Please enter a expression");
+        a = input.nextInt();
+        operator = input.next().charAt(0);
+        b = input.nextInt();
+
+        switch (operator) {
+            case '+':
+                c = add(a,b);
+                System.out.println(c);
+                break;
+        }
+
+
+    }
+    public static int add(int a, int b) {
+        return a + b;
     }
 }
