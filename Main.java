@@ -16,19 +16,13 @@ public class Main {
                 System.out.println(c);
                 break;
 
+
             case '-':
                 c = minus(a,b);
-                
-                System.out.println(c);
-                break;
 
             case '*':
                 c = mul(a, b);
-                System.out.println(c);
-                break;
 
-            case '/':
-                c = div(a, b);
                 System.out.println(c);
                 break;
         }
@@ -41,14 +35,10 @@ public class Main {
 
     public static int minus(int a, int b) {
         return a - b;
-    }
+
     public static int mul(int a, int b)
     {
         return a * b;
 
     }
-    public static int div(int a, int b) {
-        return a / b;
-    }
-
 }
