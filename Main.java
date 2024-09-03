@@ -15,11 +15,19 @@ public class Main {
                 c = add(a,b);
                 System.out.println(c);
                 break;
+
+            case '-':
+                c = minus(a,b);
+                System.out.println(c);
+                break;
         }
 
 
     }
     public static int add(int a, int b) {
         return a + b;
+    }
+    public static int minus(int a, int b) {
+        return a - b;
     }
 }
