@@ -25,6 +25,11 @@ public class Main {
                 c = mul(a, b);
                 System.out.println(c);
                 break;
+
+            case '^':
+                c = pow(a, b);
+                System.out.println(c);
+                break;
         }
 
 
@@ -40,6 +45,11 @@ public class Main {
     {
         return a * b;
 
+    }
+
+    public static int pow(int a, int b)
+    {
+        return (int)Math.pow(a,b);
     }
 
 }
